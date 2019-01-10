@@ -40,7 +40,7 @@ function init() {
       clientID: oauthClientId,
       clientSecret: oauthClientSecret,
       // Replace the callbackURL string with your own deployed servers path to handle the OAuth redirect
-      callbackURL: callbackUrl,
+      callbackURL: "https://git.heroku.com/obscure-journey-24852.git",
       authorizationURL: oauthUrl + "/oauth/authorize",
       tokenURL: oauthUrl + "/oauth/token",
       userProfileURL: apiUrl + "/api/users/sessioninfo"
